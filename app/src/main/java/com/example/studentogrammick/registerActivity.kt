@@ -41,7 +41,7 @@ class registerActivity : AppCompatActivity() {
         val gradient = LinearGradient(
             0f, 0f, 0f, height, // Вертикальный градиент
             intArrayOf(
-                Color.parseColor("#00A3FF"), 
+                Color.parseColor("#00A3FF"),
                 Color.parseColor("#7000FF")
             ),
             null,
