@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="0.045" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/starttAnimationButton"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -125,6 +125,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintVertical_bias="0.428" />
+
+    <View
+        android:id="@+id/animatedView"
+        android:layout_width="410dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="-410dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
